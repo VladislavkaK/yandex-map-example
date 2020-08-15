@@ -4,8 +4,8 @@ import { useHistory, RouteComponentProps } from 'react-router-dom';
 import { BlockProps } from 'baseui/block'
 import { isEmpty } from 'lodash';
 import { Button, KIND } from 'baseui/button'
-import Search from '../../components/IndexPage/Search';
-import Map from '../../components/IndexPage/Map';
+import Search from '../../components/MapPage/Search';
+import Map from '../../components/MapPage/Map';
 import { mockDataMcdonalds } from '../../global/mocks/mcdonalds';
 
 const itemSearchProps: BlockProps = {
